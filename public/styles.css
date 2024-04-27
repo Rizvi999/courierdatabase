@@ -1,0 +1,181 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('image.jpg');
+    background-size: cover; /* Ensure the background image covers the entire screen */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Add transparency to the header */
+    padding: 20px;
+    text-align: center; /* Align text to the left */
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+.logo {
+    align-items: center; /* Push the logo to the left */
+}
+
+.logo img {
+    height: 60px; /* Reduce the height of the logo */
+}
+
+.title h1 {
+    margin: 0;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.8); /* Lighter shade of white */
+}
+
+.container {
+    flex-grow: 1;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-container {
+    background-color: rgba(0, 0, 0, 0.3); /* Add transparency to the form container */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 50px; /* Increase padding to increase size */
+    margin: 0 auto; /* Center the form */
+    margin-bottom: 20px;
+    max-width: 500px; /* Limit width to make it centered */
+    width: 100%; /* Ensure the form takes up the entire available width */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+input,
+select,
+textarea {
+    width: calc(100% - 16px); /* Adjust for padding */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.8); /* Add transparency to input background */
+    color: #000; /* Change input text color to improve visibility */
+}
+
+button {
+    background-color: #e50914;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #bf0c0c;
+}
+
+p {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent grey background */
+    color: #ffffff; /* White text color */
+    padding: 20px 0; /* Padding on top and bottom */
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between; /* Evenly space the content horizontally */
+    align-items: flex-start; /* Align items at the top */
+    max-width: 1200px; /* Limit width of content */
+    margin: 0 auto; /* Center content horizontally */
+    padding: 0 50px; /* Add padding to sides */
+  }
+  
+  .contact-info,
+  .partnership,
+  .social-media {
+    flex: 1; /* Equal width for all sections */
+  }
+  
+  .contact-info h3,
+  .partnership h3,
+  .social-media h3 {
+    margin-top: 0; /* Remove top margin for headings */
+    color: #ff0000; /* Red title color */
+  }
+  
+  .social-media ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .social-media ul li {
+    margin-bottom: 5px; /* Add some space between social media links */
+  }
+  
+  .social-media ul li img {
+    height: 30px; /* Set height for social media logos */
+    margin-right: 10px; /* Add some space between logo and text */
+  }
+  
+  .copyright {
+    text-align: center; /* Center align copyright text */
+    margin-top: 10px; /* Add some space between content and copyright */
+  }
+
+  .copyright img{
+    height: 70px;
+    margin-right: 10px;
+  }
+  
+/* Style for sender and customer options */
+#customerOptions,
+#senderOptions {
+  background-color: rgba(0, 0, 0, 0.5); /* White background */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+}
+
+#customerOptions ul,
+#senderOptions ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+#customerOptions ul li a,
+#senderOptions ul li a {
+  display: block;
+  color: #ffffff; /* Black text */
+  padding: 10px 20px;
+  margin: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#customerOptions ul li a:hover,
+#senderOptions ul li a:hover {
+  background-color: rgba(0, 0, 0, 0); /* Light grey background on hover */
+  box-shadow: 0 0 10px rgba(219, 42, 42, 0.8); /* Add shadow for depth */
+}
+
+
+  
